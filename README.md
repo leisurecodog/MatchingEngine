@@ -5,5 +5,6 @@ flowchart TD
   A[Start] --> B{Condition?}
   B -- Yes --> C[Do something]
   B -- No --> D[Do other thing]
-  C --> E[End] D --> E
+  C --> E[End]
+  D --> E
 ```
